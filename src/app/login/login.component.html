@@ -1,7 +1,9 @@
-<div>
-  <button routerLink="./">Signin</button>
-  <button routerLink="./new">Signup</button>
-</div>
-<div>
+<div class="div-tab">
+  <nav mat-tab-nav-bar>
+    <div class="div-tab">
+        <a mat-button routerLink="./" class="tab-btn">Signin</a>
+        <a mat-button routerLink="./new" class="tab-btn">Signup</a>
+    </div>
+  </nav>
   <router-outlet></router-outlet>
 </div>
